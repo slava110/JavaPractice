@@ -1,3 +1,5 @@
+import java.util.stream.IntStream;
+
 public class Lab_1_1 {
 
     public static void main(String[] args) {
@@ -5,7 +7,6 @@ public class Lab_1_1 {
 
         System.out.println(arraySumFor(array));
         System.out.println(arraySumWhile(array));
-        System.out.println(arraySumDoWhile(array));
         System.out.println(arraySumForEach(array));
     }
 
@@ -30,18 +31,6 @@ public class Lab_1_1 {
             res += array[i];
             i++;
         }
-        return res;
-    }
-
-    /**
-     * Сумма чисел массива циклом do-while
-     */
-    public static int arraySumDoWhile(int[] array) {
-        int res = 0;
-        int i = 0;
-        do {
-            res += array[i];
-        } while (i++ < array.length);
         return res;
     }
 

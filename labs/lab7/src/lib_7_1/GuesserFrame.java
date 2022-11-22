@@ -1,6 +1,6 @@
 package lib_7_1;
 
-import java.awt.GridLayout;
+import java.awt.*;
 import java.text.NumberFormat;
 import java.util.Random;
 
@@ -33,9 +33,11 @@ public class GuesserFrame extends JFrame {
         nf.setAllowsInvalid(false);
 
         guessField = new JFormattedTextField(nf);
+        guessField.setBackground(Color.MAGENTA);
         add(guessField);
 
         guessButton = new JButton("Tries left: " + tries);
+        guessButton.setBackground(Color.PINK);
         guessButton.addActionListener(e -> {
             int guessed = Integer.parseInt(guessField.getText());
             if(guessed > toGuess) {
@@ -68,6 +70,7 @@ public class GuesserFrame extends JFrame {
             guessButton.setEnabled(true);
             guessButton.setText("Tries left: " + tries);
         });
+        restartButton.setBackground(Color.MAGENTA);
         add(restartButton);
     }
 
