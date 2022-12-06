@@ -4,7 +4,34 @@ import java.util.*;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        task1();
+        task2();
+        task3();
+        task4();
+    }
+
+    private static void task1() {
+        Integer[] numbers = {10, 20, 30, 40};
+        List<Integer> numbersList = toList(numbers);
+
+        System.out.println("Converted numbers: " + numbersList);
+    }
+
+    private static void task2() {
+        ArrayContainer<String> myContainer = new ArrayContainer<>(new String[10]);
+
+        myContainer.set(3, "Wow");
+        myContainer.set(5, "Hey");
+
+        System.out.println(myContainer);
+    }
+
+    private static void task3() {
+        Integer[] numbers = {10, 20, 30, 40};
+        System.out.println(numbers[3] + " == " + getFromArray(numbers, 3));
+    }
+
+    private static void task4() {
         File file = new File(".");
         String[] files = file.list();
 
@@ -19,12 +46,17 @@ public class Main {
         }
     }
 
+    // Комбинирует 2 условия. N должен быть числом и должен быть сравниваемым с N.
     private static <N extends Number & Comparable<N>> List<N> toList(N[] arr) {
         return Arrays.asList(arr);
     }
 
+    private static <T> T getFromArray(T[] arr, int index) {
+        return arr[index];
+    }
+
     static class ArrayContainer<T> {
-        private T[] arr;
+        private final T[] arr;
 
         public ArrayContainer(T[] arr) {
             this.arr = arr;
@@ -34,37 +66,15 @@ public class Main {
             return arr[i];
         }
 
-        public List<T> toList() {
-            return Arrays.asList(arr);
-        }
-    }
-
-    static class Solution {
-
-        public static <T> List<T> newArrayList(T ...els) {
-            return Arrays.asList(els);
+        public void set(int i, T value) {
+            arr[i] = value;
         }
 
-        public static <T> Set<T> newHashSet(T ...els) {
-            return new HashSet<>(Arrays.asList(els));
-        }
-
-        public static <K, V> Map<K, V> newHashMap(Pair<K, V> ...pairs) {
-            Map<K, V> res = new HashMap<>(pairs.length);
-            for (Pair<K, V> pair : pairs) {
-                res.put(pair.key, pair.value);
-            }
-            return res;
-        }
-
-        static class Pair<K, V> {
-            private final K key;
-            private final V value;
-
-            public Pair(K key, V value) {
-                this.key = key;
-                this.value = value;
-            }
+        @Override
+        public String toString() {
+            return "ArrayContainer{" +
+                    "arr=" + Arrays.toString(arr) +
+                    '}';
         }
     }
 }

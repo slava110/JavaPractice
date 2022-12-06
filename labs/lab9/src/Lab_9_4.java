@@ -1,5 +1,8 @@
 import java.util.Scanner;
 
+/**
+ *
+ */
 public class Lab_9_4 {
 
     public static void main(String[] args) {
@@ -7,14 +10,14 @@ public class Lab_9_4 {
             getKey();
         } catch (Exception e) {
             System.out.println(e.getMessage());
-            e.printStackTrace();
+            e.printStackTrace(); // Выводит stacktrace - путь вызовов до методов вплоть до ошибки
         }
     }
 
     private static void getKey() throws Exception {
         Scanner scan = new Scanner(System.in);
 
-        String key = scan.next();
+        String key = scan.nextLine();
         printDetails(key);
     }
 

@@ -22,6 +22,10 @@ public class Lab_1_4 {
         System.out.println("====================");
 
         // Сортировка массива при помощи библиотечного метода
+
+        // Алгоритм сортировки Dual-Pivot Quicksort от Vladimir Yaroslavskiy, Jon Bentley, и Joshua Bloch.
+        // Сложность: O(n log(n))
+
         Arrays.sort(array);
 
         // Вывод отсортированного массива на экран

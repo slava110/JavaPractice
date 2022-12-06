@@ -1,5 +1,9 @@
 public class Lab_9_3 {
 
+    /**
+     * Долгая ошибка
+     * @param args
+     */
     public static void main(String[] args) {
         try {
             String res = getDetails("wow");

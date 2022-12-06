@@ -6,6 +6,11 @@ import java.util.Scanner;
 
 public class Main {
 
+    /**
+     * Запрашивает у пользователя построчный ввод текста
+     * Чтобы завершить ввод надо написать EOF. Только после этого текст запишется в файл
+     * @param args
+     */
     public static void main(String[] args) {
         System.out.println("Type text or enter EOF to write everything to file ");
         Scanner scanner = new Scanner(System.in);
@@ -23,6 +28,7 @@ public class Main {
                     break;
                 writer.write(text);
             }
+            // Смыв в файл))
             writer.flush();
         } catch (Throwable e) {
             System.out.println("Welp, I'm broken :c");
