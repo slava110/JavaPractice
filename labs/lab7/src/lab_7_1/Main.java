@@ -1,4 +1,4 @@
-package lib_7_1;
+package lab_7_1;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,6 +7,8 @@ public class Main {
 
     /**
      * Просто выполнение методов ArrayList
+     * Изучите то, как работает ArrayList, в интернете. По факту это Vector из C++ - расширяемый массив
+     * Расширяется в 2 раза если места в нём нехватает
      * @param args
      */
     public static void main(String[] args) {

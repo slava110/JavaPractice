@@ -1,4 +1,4 @@
-package lib_6_1;
+package lab_6_1;
 
 import java.awt.*;
 import java.text.NumberFormat;
@@ -39,6 +39,7 @@ public class GuesserFrame extends JFrame {
 
         guessField = new JFormattedTextField(nf);
         guessField.setBackground(Color.MAGENTA); // Проверяющей понравится
+        guessField.setText("0"); // Фикс пустого поля
         add(guessField);
 
         guessButton = new JButton("Tries left: " + tries);

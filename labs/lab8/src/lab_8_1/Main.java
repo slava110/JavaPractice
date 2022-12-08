@@ -1,3 +1,5 @@
+package lab_8_1;
+
 import java.io.FileWriter;
 import java.util.ArrayList;
 import java.util.HashSet;
