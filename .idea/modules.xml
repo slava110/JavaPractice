@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/JavaPracticeGit.iml" filepath="$PROJECT_DIR$/.idea/JavaPracticeGit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/labs/lab10/lab10.iml" filepath="$PROJECT_DIR$/labs/lab10/lab10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/labs/lab11/lab11.iml" filepath="$PROJECT_DIR$/labs/lab11/lab11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/labs/lab12/lab12.iml" filepath="$PROJECT_DIR$/labs/lab12/lab12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/labs/lab9/lab9.iml" filepath="$PROJECT_DIR$/labs/lab9/lab9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tasks/1/lab_1/lab_1.iml" filepath="$PROJECT_DIR$/tasks/1/lab_1/lab_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tasks/10/lab_10/lab_10.iml" filepath="$PROJECT_DIR$/tasks/10/lab_10/lab_10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tasks/11/lab_11/lab_11.iml" filepath="$PROJECT_DIR$/tasks/11/lab_11/lab_11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tasks/12/lab_12/lab_12.iml" filepath="$PROJECT_DIR$/tasks/12/lab_12/lab_12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tasks/2/lab_2_1/lab_2_1.iml" filepath="$PROJECT_DIR$/tasks/2/lab_2_1/lab_2_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tasks/2/lab_2_2/lab_2_2.iml" filepath="$PROJECT_DIR$/tasks/2/lab_2_2/lab_2_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tasks/2/lab_2_3/lab_2_3.iml" filepath="$PROJECT_DIR$/tasks/2/lab_2_3/lab_2_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tasks/3/lab_3_1/lab_3_1.iml" filepath="$PROJECT_DIR$/tasks/3/lab_3_1/lab_3_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tasks/4/lab_4_1/lab_4_1.iml" filepath="$PROJECT_DIR$/tasks/4/lab_4_1/lab_4_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tasks/4/lab_4_2/lab_4_2.iml" filepath="$PROJECT_DIR$/tasks/4/lab_4_2/lab_4_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tasks/5/lab_5_1/lab_5_1.iml" filepath="$PROJECT_DIR$/tasks/5/lab_5_1/lab_5_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tasks/5/lab_5_2/lab_5_2.iml" filepath="$PROJECT_DIR$/tasks/5/lab_5_2/lab_5_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tasks/6/lab_6_1/lab_6_1.iml" filepath="$PROJECT_DIR$/tasks/6/lab_6_1/lab_6_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tasks/6/lab_6_2/lab_6_2.iml" filepath="$PROJECT_DIR$/tasks/6/lab_6_2/lab_6_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tasks/7/lab_7_1/lab_7_1.iml" filepath="$PROJECT_DIR$/tasks/7/lab_7_1/lab_7_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tasks/7/lab_7_2/lab_7_2.iml" filepath="$PROJECT_DIR$/tasks/7/lab_7_2/lab_7_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tasks/8/lab_8_1/lab_8_1.iml" filepath="$PROJECT_DIR$/tasks/8/lab_8_1/lab_8_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tasks/8/lab_8_2/lab_8_2.iml" filepath="$PROJECT_DIR$/tasks/8/lab_8_2/lab_8_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tasks/9/lab_9/lab_9.iml" filepath="$PROJECT_DIR$/tasks/9/lab_9/lab_9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practice/task1/task1.iml" filepath="$PROJECT_DIR$/practice/task1/task1.iml" />
+    </modules>
+  </component>
+</project>

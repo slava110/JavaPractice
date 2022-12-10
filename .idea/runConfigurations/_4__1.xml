@@ -1,0 +1,15 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Лаба 4 Вариант 1" type="Application" factoryName="Application" folderName="Лаба 4">
+    <option name="MAIN_CLASS_NAME" value="ru.mirea.lab_4_1.TestPlanet" />
+    <module name="JavaPracticeGit" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="ru.mirea.lab_4_1.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

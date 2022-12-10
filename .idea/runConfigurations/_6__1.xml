@@ -1,0 +1,15 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Лаба 6 Вариант 1" type="Application" factoryName="Application" folderName="Лаба 6">
+    <option name="MAIN_CLASS_NAME" value="ru.mirea.lab_6_1.GuesserFrame" />
+    <module name="JavaPracticeGit" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="ru.mirea.lab_6_1.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

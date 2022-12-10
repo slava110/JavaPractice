@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/tasks/1/lab_1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tasks/1/practice_1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tasks/10/lab_10/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tasks/11/lab_11/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tasks/12/lab_12/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tasks/3/lab_3_1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tasks/4/lab_4_1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tasks/4/lab_4_2/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tasks/5/lab_5_1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tasks/5/lab_5_2/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tasks/6/lab_6_1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tasks/6/lab_6_2/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tasks/7/lab_7_1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tasks/7/lab_7_2/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tasks/8/lab_8_1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tasks/8/lab_8_2/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tasks/9/lab_9/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
