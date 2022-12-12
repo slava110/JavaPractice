@@ -20,6 +20,8 @@
       <sourceFolder url="file://$MODULE_DIR$/tasks/8/lab_8_1/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/tasks/8/lab_8_2/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/tasks/9/lab_9/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tasks/10/prac_10/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tasks/12/prac_12/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

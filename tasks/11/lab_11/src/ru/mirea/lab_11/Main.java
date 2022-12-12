@@ -21,11 +21,6 @@ public class Main {
                 new Solution.Pair<>("Wow", 23)
         );
         System.out.println("Map: " + map);
-
-        System.out.println("Are arguments taking something? " + Solution.areTakingSomething(
-                new Solution.Pair<>("Hey", 15),
-                new Solution.Pair<>("Wow", 23)
-        ));
     }
 
     static class Solution {
@@ -44,11 +39,6 @@ public class Main {
                 res.put(pair.key, pair.value);
             }
             return res;
-        }
-
-        // Шуточный метод, уберите у себя
-        public static boolean areTakingSomething(Object ...args) {
-            return Arrays.stream(args).allMatch(arg -> arg instanceof Solution.Pair);
         }
 
         static class Pair<K, V> {
